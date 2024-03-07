@@ -1,0 +1,30 @@
+
+body{
+  font-size: 14px;
+  font-family: sans-serif;
+} 
+a{
+  color: inherit;
+}
+
+.main-article{font-size:1.5em;
+  border: 2px dotted red;
+  text-align: center;
+  color: chocolate;
+}
+
+.main-article-heading{
+  font-family: initial;
+ border: inherit;
+}
+
+.main-article-content{
+line-height: 1.2;}
+
+.main-article-blockquote{
+  border: inherit;
+  color: initial;
+}
+.initial-align{text-align: initial;
+
+}
