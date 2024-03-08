@@ -9,6 +9,19 @@ body{
 a{
   color: inherit;
 }
+/* div{
+  display: inline;
+} */
+div, em, strong{
+  display: inline-block;
+  width: 100px;
+  border: inherit;
+  border-color: blue;
+  border-bottom-width: 5px;
+  background-color: aqua;
+  padding: 0 1.5em;
+  margin: 0.5em;
+}
 
 .main-article{
   width: 80%;
