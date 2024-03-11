@@ -1,81 +1,18 @@
-*{
-  box-sizing: border-box;
+img{
+  width: 100%;
 }
-body{
-  color: blue;
-  font-size: 14px;
-  font-family: sans-serif;
-} 
-a{
-  color: inherit;
-}
-/* div{
-  display: inline;
-} */
-div, em, strong{
-  display: inline-block;
-  width: 100px;
-  border: inherit;
-  border-color: blue;
-  border-bottom-width: 5px;
-  background-color: aqua;
-  padding: 0 1.5em;
-  margin: 0.5em;
-}
-
-.main-article{
+table{
   width: 80%;
-  padding: 10px;
-  border: 2px dotted #b96d0a;
-  border-radius: 15px;
   margin: auto;
-  color: chocolate;
+  border:1px solid black;
+  /* border-collapse: collapse; */
+  border-collapse:separate;
+  border-spacing: 1px;
 
-  text-align: center;
-
-  font-size:1.5em;
-  font-style: italic;  
 }
-
-.main-article-heading{
+td, th{
+  border: 1px solid blue;
+}
+.headi-row{
   width: 50%;
-  padding:0.7em 10%  ; 
-  margin: auto;
-
-  border: inherit;
-  border-radius: inherit;
-
-  background-color:aqua;
-
-  font-family: initial;
-  
-}
-.first-letter{
-  font-size: 2em;
-  text-transform: uppercase;
-}
-
-.main-article-content{
-line-height: 1.2;}
-
-.main-article-pic{
-  width: 200px;
-  height: 200px;
-  padding: 10px;
-  border: 5px double blue;  
-  border-radius: 50%;
-  margin: 20px;
-  background-color: green;object-fit:cover;object-position: left;
-  }
-
-.main-article-blockquote{
-padding: inherit;
-  border: inherit;
-  border-radius: inherit 
-  ;
-  /* color: initial; */
-  
-}
-.initial-align{text-align: initial;
-
 }
